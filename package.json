@@ -3,9 +3,6 @@
     "version": "1.0.0",
     "description": "ditimarf.github.io",
     "main": "index.html",
-    "scripts": {
-        "start": "node index.html"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ditimarf/ditimarf.github.io.git"
@@ -15,5 +12,5 @@
     "bugs": {
         "url": "https://github.com/ditimarf/ditimarf.github.io/issues"
     },
-    "homepage": "https://github.com/ditimarf/ditimarf.github.io#readme"
+    "homepage": "ditimarf.github.io"
 }
