@@ -1,12 +1,11 @@
-var http = require('http');
+var express = require('express');
+var app = express();
+var path = require('path');
 
-http.createServer(function(req, res) {
-    var html = './index.html';
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
 
-    res.writeHead(200, {
-        'Content-Type': 'text/html',
-        'Content-Length': html.length,
-        'Expires': new Date().toUTCString()
-    });
-    res.end(html);
-}).listen(8080);
+app.listen(3000, function() {
+    console.log('Rodando na porta 3000!');
+});

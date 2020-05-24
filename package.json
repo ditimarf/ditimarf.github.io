@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/ditimarf/ditimarf.github.io/issues"
     },
-    "homepage": "ditimarf.github.io"
+    "homepage": "ditimarf.github.io",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
