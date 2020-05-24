@@ -1,0 +1,19 @@
+{
+    "name": "ditimarf",
+    "version": "1.0.0",
+    "description": "ditimarf.github.io",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ditimarf/ditimarf.github.io.git"
+    },
+    "author": "Ditimar Filho",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ditimarf/ditimarf.github.io/issues"
+    },
+    "homepage": "https://github.com/ditimarf/ditimarf.github.io#readme"
+}
