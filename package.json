@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "ditimarf.github.io",
     "main": "index.html",
+    "scripts": {
+        "start": "node server.js"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ditimarf/ditimarf.github.io.git"
